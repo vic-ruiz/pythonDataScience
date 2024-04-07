@@ -1,6 +1,0 @@
-python data science
-ibm
-run
-sleep well
-calgary
-canada
