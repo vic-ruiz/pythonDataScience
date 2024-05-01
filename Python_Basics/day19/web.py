@@ -3,9 +3,9 @@ import functions
 
 
 def add_todo():
-    todo = st.session_state['new_todo'] + "\n"
+    todo = st.session_state['new_todo']
     todos = functions.get_todos('Python_Basics/day19/todos.txt')
-    todos.append(todo)
+    todos.append(todo + "\n")
     functions.write_todos(todos, 'Python_Basics/day19/todos.txt')
 
 
